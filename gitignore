@@ -1,0 +1,32 @@
+# ---------- Database files (large; link to the source instead) ----------
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.bak
+*.dump
+
+# ---------- Office temporary / lock files ----------
+~$*
+.~lock.*
+*.tmp
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Editor / IDE ----------
+.vscode/
+.idea/
+
+# ---------- Logs and credentials ----------
+*.log
+.env
+*.pem
+
+# ---------- Python (if you add analysis scripts later) ----------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
